@@ -1,0 +1,38 @@
+.searchDiv {
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 5px;
+}
+.searchDiv form {
+  display: flex;
+  flex-direction: column;
+}
+.searchDiv input {
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 20px 10px 20px;
+  margin-top: 10px;
+  border: 2px solid coral;
+}
+
+.imageList {
+  columns: 250px 5;
+  column-gap: 10px;
+  margin: 30px;
+}
+
+.imageListImg {
+  width: 100%;
+}
+
+.hero-body .title {
+  color: black !important;
+  text-align: center;
+}
+
+body {
+  background-color: lightblue;
+  height: 100vh !important;
+}
